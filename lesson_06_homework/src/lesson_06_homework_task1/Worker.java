@@ -1,6 +1,6 @@
 package lesson_06_homework_task1;
 
-public class Worker {
+public abstract class Worker implements Salary{
 	String name;
 
 	public Worker(String name) {
