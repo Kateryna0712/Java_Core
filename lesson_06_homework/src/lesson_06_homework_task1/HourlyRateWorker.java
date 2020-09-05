@@ -1,6 +1,6 @@
 package lesson_06_homework_task1;
 
-public class HourlyRateWorker extends Worker implements Salary {
+public class HourlyRateWorker extends Worker {
 	private int summaryMonthworkedHours;
 	private double hourRate;
 
