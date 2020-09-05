@@ -1,45 +1,29 @@
 package com.lgs.lab.interface2;
 
 public class MyCalculator implements com.lgs.lab.interface1.Numerable {
-	int a;
-	int b;
 
-	MyCalculator() {
+	@Override
+	public int plus(int a, int b) {
+		int result = a + b;
+		return result;
 
-	}
-
-	public MyCalculator(int a, int b) {
-		super();
-		this.a = a;
-		this.b = b;
 	}
 
 	@Override
-	public int plus() {
-
-		return this.a + this.b;
+	public int minus(int a, int b) {
+		int result = a - b;
+		return result;
 	}
 
 	@Override
-	public int minus() {
-
-		return this.a - this.b;
+	public int multiplay(int a, int b) {
+		int result = a * b;
+		return result;
 	}
 
 	@Override
-	public int multiplay() {
-
-		return this.a * this.b;
+	public int devide(int a, int b) {
+		int result = a / b;
+		return result;
 	}
-
-	@Override
-	public int devide() {
-
-		return this.a / this.b;
-	}
-
-	static void ViewResult(int result) {
-		System.out.println("Result" + result );
-	}
-
 }
