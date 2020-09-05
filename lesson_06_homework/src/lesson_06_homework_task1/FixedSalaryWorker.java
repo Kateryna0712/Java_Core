@@ -1,6 +1,6 @@
 package lesson_06_homework_task1;
 
-public class FixedSalaryWorker extends Worker implements Salary {
+public class FixedSalaryWorker extends Worker {
 
 	private double monthRate;
 
